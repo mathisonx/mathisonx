@@ -9,7 +9,7 @@ body,html{
 .header{
     width: 100vw;
     height: 400px;
-    background: url(/images/img.png) left center;
+    background: url(images/img.png) left center;
 
 }
 

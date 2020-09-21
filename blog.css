@@ -12,6 +12,19 @@ body,html{
     background: url(images/img.png) left center;
 
 }
+/*这个是preface页面的*/
+.header-preface{
+    width: 100vw;
+    height: 400px;
+    background: url(images/sun.jpg) left center;
+}
+
+/*这个是summary页面的*/
+.header-summary{
+    width: 100vw;
+    height: 400px;
+    background: url(images/summary.jpg) left center;
+}
 
 .nav{     /*导航栏区*/
     width: 100%;
@@ -42,12 +55,12 @@ body,html{
 }
 
 .navLeft{
-    padding-left: 50px;
+    padding-left: 10px;
 
 }
 
 .navRight{
-    padding-right: 50px;
+    padding-right: 10px;
 
 }
 
@@ -142,4 +155,8 @@ body,html{
     color: #B1B1B1;
     text-align: center;
 
+}
+.bottomdiv{
+    height: 50px;
+    width: 100%;
 }

@@ -86,8 +86,7 @@ body,html{
 
 .left{
 
-    width: 70%;
-
+    
 }
 
 .first{
@@ -106,26 +105,7 @@ body,html{
 
 }
 
-.right{
-    padding-left: 50px;
-    width: 30%;    
 
-}
-
-.rightul{
-
-}
-
-.right ul{
-    padding-top: 20px;
-
-}
-
-.right a{
-    text-decoration: none;
-    color: purple;
-
-}
 
 /*底栏*/
 

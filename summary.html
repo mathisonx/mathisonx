@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>历程</title>
+    <title>建设历程</title>
     <link rel="stylesheet" href="blog.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
@@ -17,7 +17,7 @@
                 <a href="http://www.mathisonx.cn">Home</a>
             </div>
             <div class="navRight">              <!--导航右按钮-->
-                <a href="#authorId">About</a>
+                <a href="preface.html">About</a>
                 <a href="#back">Back</a>
             </div>
         </div>
@@ -31,9 +31,90 @@
         <div class="left">  
             <!--左侧主要文章-->
             <div class="first" >
-                <h1>历  程</h1>
-                <h3></h3>
-                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本站是基于面向开源及私有软件项目的托管平台——GitHub而建立的。GitHub提供的GitHub Page功能能够用于托管个人的静态网站，无需搭建服务器及购买域名，可用于个人博客的搭建，网站域名由GitHub提供，在本站中，我使用腾讯云服务域名解析GitHub个人主页。实现通过个人域名进行访问。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初始一期周期：2020/9/17 - 2020/9/20</span>
+                <h1>建设历程</h1>
+                <br>
+                <!--文章开始-->
+                
+                <h3>前言</h3>
+                <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    本站构建环境基于Mac OS Mojave。其他平台的操作构建方法类似。为简化文档以及使得流程更加清晰，部分内容我会引用社区文档。
+                </span>
+                <br>
+                <br>
+
+                <h3>一、GitHub账户</h3>
+                <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    由于服务器的属地因素，静态网站的访问速度可能不甚理想。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    GitHub账户注册参考CSDN社区文档：
+                    <a href="https://blog.csdn.net/qq_41782425/article/details/85179912">https://blog.csdn.net/qq_41782425/article/details/85179912</a>
+                </span>
+                <br>
+                <br>
+                
+                <h3>二、域名申请</h3>
+                <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    注意：在GitHub中，当您开启GitHub Pages功能之后，会生成个人主页网址，您可以凭借此网址访问您的个人主页，因此域名并不是必须的，但是如果您想通过个人域名访问个人主页，可以使用域名解析的方式。
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    域名申请参考腾讯云社区文档。
+                    <a href="https://cloud.tencent.com/developer/article/1497409">https://cloud.tencent.com/developer/article/1497409</a>
+                </span>
+                <br>
+                <br>
+                
+                <h3>三、Git环境配置</h3>
+                <span>
+                    1、Git安装：<a href="https://sourceforge.net/projects/git-osx-installer/">https://sourceforge.net/projects/git-osx-installer/</a>
+                    <br>
+                    2、基于Mac OS，当您完成Git的安装后，可以在终端中查看是否安装成功，方法如下：
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    使用键盘Command+space调出聚焦搜索，输入Terminal.app打开终端，输入git version，如果出现git的版本代码，如 git version 2.15.0，说明已经成功安装git。
+                    <br>
+                    3、Git的配置：目的在于建立本机与GitHub服务器的通信，参考社区文档：<a href="https://blog.csdn.net/qq_37721114/article/details/105809948">https://blog.csdn.net/qq_37721114/article/details/105809948</a>
+                </span>
+                <br>
+                <br>
+
+                <h3>四、本地与远程仓库</h3>
+                <span>
+
+                    1、首先在GitHub中建立仓库，建立方法参考（一）中的社区文档。
+                    <br>
+                    2、在本地建立一个文件夹，可以选择在桌面建立，文件夹创建完成后，终端路径到本文件夹，输入 git init，初始化仓库，本地仓库建立完成。
+                    <br>
+                </span>
+                <br>
+                <br>
+               
+                <h3>五、本地代码的发布</h3>
+                <span>
+                    1、准备好所有的代码文件，存放至本地仓库，使用终端命令
+                <br>
+                git add --all     //添加所有文件 <br>
+                git commit -m “发布”  //提交文件到本地 <br>
+                git push origin master //提交文件到远程仓库 <br>
+                </span>
+                <br>
+                <br>
+                
+                <h3>六、GitHub Pages生成个人主页链接</h3>
+                <span>
+                    参考社区文档：<a href="https://www.jianshu.com/p/17747d8fd3f4">https://www.jianshu.com/p/17747d8fd3f4</a>
+                </span>
+                <br>
+                <br>
+
+                <h3>七、个人域名的解析</h3>
+                
+
+                
+                
+
+                
                 <p></p>
             </div>
         </div>

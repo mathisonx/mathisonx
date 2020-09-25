@@ -10,6 +10,7 @@ body,html{
     width: 100vw;
     height: 400px;
     background: url(images/img.png) left center;
+    text-align: center;
 
 }
 /*这个是preface页面的*/
@@ -34,7 +35,6 @@ body,html{
     align-items: center;
     background-color:#F3F3F3;
     opacity: 0.8;
-    position: fixed;
     background-color: white;
     border-bottom: 2px solid black;
 
@@ -64,26 +64,20 @@ body,html{
 
 }
 
-.title{
-    height: 350px;
-    display: flex;
-    justify-content: center;
-
-}
 
 .name{
-    position: absolute;
+
     color: white;
     font-size: 5em;
-    padding-top: 50px;
+
 
 }
 
 .intro{
-    position: absolute;
+
     color: white;
     font-size: 1em;
-    padding-top: 250px;
+
 
 }
 
@@ -97,10 +91,6 @@ body,html{
 
 }
 
-.left{
-
-    
-}
 
 
 .first{
@@ -109,7 +99,8 @@ body,html{
 }
 
 .first h2{
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: 200;
 
 }
 
@@ -121,6 +112,7 @@ body,html{
 .first a{
     color:#B1B1B1;
     text-decoration: none;
+    line-height: 2;
 
 }
 .first a:hover{
@@ -169,8 +161,4 @@ body,html{
     color: #B1B1B1;
     text-align: center;
 
-}
-.bottomdiv{
-    height: 50px;
-    width: 100%;
 }
